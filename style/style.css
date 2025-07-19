@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+li {
+    font-family: Lato;
+}
+
+/* HEADER */
+
+.header {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    gap: 130px;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+
+}
+
+.nav_left {
+    display: flex;
+    gap: 72px;
+}
+
+.nav_right {
+    display: flex;
+    gap: 35px;
+}
+
+/* HOVER'S */
+.nav_right a{
+    color: #292929;
+    font-weight: 400;
+    padding: 13px 50px 13px 50px;
+    transition: bacground-color 0.5 ease, color 0.5s ease;
+}
+
+.nav_right a:hover{
+    background-color: #01996D;
+    color: white;
+}
+
+
+
+.nav_left a {
+    color: #292929;
+    font-weight: 500;
+}
+
+.nav_left a:hover {
+    color: #01996D;
+    transition: 0.3s;
+}
