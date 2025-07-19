@@ -54,13 +54,16 @@ li {
 .nav_right a {
     color: #292929;
     font-weight: 400;
-    padding: 13px 50px 13px 50px;
-    transition: bacground-color 0.5 ease, color 0.5s ease;
+    padding: 13px 50px;
+    display: inline-block; /* transform ishlashi uchun */
+    border-radius: 5px;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.3s ease;
 }
 
 .nav_right a:hover {
     background-color: #01996D;
     color: white;
+    transform: scale(1.05); /* kattalashadi */
 }
 
 
@@ -68,11 +71,16 @@ li {
 .nav_left a {
     color: #292929;
     font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    /* transform ishlashi uchun kerak */
 }
 
 .nav_left a:hover {
     color: #01996D;
-    transition: 0.3s;
+    transform: scale(1.05);
+    /* ozgina kattalashadi */
 }
 
 /* MAIN*/
