@@ -22,7 +22,8 @@ li {
 /* HEADER */
 
 .header {
-    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,14 +51,14 @@ li {
 }
 
 /* HOVER'S */
-.nav_right a{
+.nav_right a {
     color: #292929;
     font-weight: 400;
     padding: 13px 50px 13px 50px;
     transition: bacground-color 0.5 ease, color 0.5s ease;
 }
 
-.nav_right a:hover{
+.nav_right a:hover {
     background-color: #01996D;
     color: white;
 }
@@ -72,4 +73,22 @@ li {
 .nav_left a:hover {
     color: #01996D;
     transition: 0.3s;
+}
+
+/* MAIN*/
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    height: 700px;
+    background-image: url('../img/Menu.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_tex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 }
