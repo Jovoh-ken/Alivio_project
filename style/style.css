@@ -15,15 +15,26 @@
     padding: 0 15px;
 }
 
+p {
+    color: #484848;
+    font-family: Lato;
+     cursor: pointer;
+}
+
+h1{
+     cursor: pointer;
+}
+
 li {
     font-family: Lato;
+     cursor: pointer;
 }
 
 /* HEADER */
 
 .header {
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,12 +52,11 @@ li {
 }
 
 .nav_left {
-    display: flex;
-    gap: 72px;
+    gap: 70px;
 }
 
 .nav_right {
-    display: flex;
+
     gap: 35px;
 }
 
@@ -55,7 +65,8 @@ li {
     color: #292929;
     font-weight: 400;
     padding: 13px 50px;
-    display: inline-block; /* transform ishlashi uchun */
+    display: inline-block;
+    /* transform ishlashi uchun */
     border-radius: 5px;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.3s ease;
 }
@@ -63,7 +74,8 @@ li {
 .nav_right a:hover {
     background-color: #01996D;
     color: white;
-    transform: scale(1.05); /* kattalashadi */
+    transform: scale(1.05);
+    /* kattalashadi */
 }
 
 
@@ -92,11 +104,58 @@ main {
     background-image: url('../img/Menu.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .main_tex {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: start;
+    align-items: flex-start;
+    gap: 20px;
+    /* elementlar orasiga masofa */
+    padding-right: 605px;
+    padding-top: 100px;
+    /* yuqoridan pastga tushirib turadi */
+}
+
+.main_tex h1 {
+    font-weight: 700;
+    font-size: 65px;
+    color: #01996D;
+}
+
+.main_tex p {
+    padding-right: 127px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* BUTTON */
+
+.main_tex button {
+    padding: 10px;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #6bcdb2, #00946a);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px #02f6b1;
+    outline: none;
+}
+
+.main_tex button:hover {
+    background: linear-gradient(135deg, #01996D, #70af9d);
+    box-shadow: 0 6px 20px #01996D;
+    transform: scale(1.05);
+}
+
+.main_tex button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 76, 76, 0.6);
 }
