@@ -18,16 +18,16 @@
 p {
     color: #484848;
     font-family: Lato;
-     cursor: pointer;
+    cursor: pointer;
 }
 
-h1{
-     cursor: pointer;
+h1 {
+    cursor: pointer;
 }
 
 li {
     font-family: Lato;
-     cursor: pointer;
+    cursor: pointer;
 }
 
 /* HEADER */
@@ -151,11 +151,61 @@ main {
 
 .main_tex button:hover {
     background: linear-gradient(135deg, #01996D, #70af9d);
-    box-shadow: 0 6px 20px #01996D;
+    box-shadow: 0 6px 20px #000000;
     transform: scale(1.05);
 }
 
 .main_tex button:focus {
     outline: none;
-    box-shadow: 0 0 0 3px rgba(255, 76, 76, 0.6);
+    box-shadow: 0 0 0 3px rgba(206, 210, 206, 0.6);
+}
+
+
+
+/*  section */
+
+.how-it-works {
+  padding: 60px 0;
+  background-color: #fff; /* agar oq fon bo‘lishi kerak bo‘lsa */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.how-it-works-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+ padding-top: 40px;
+}
+
+.subheading {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.left h2 {
+  font-size: 32px;
+  color: #007f5f; /* yashil rangda */
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.right p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
 }
