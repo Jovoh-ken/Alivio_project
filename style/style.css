@@ -98,9 +98,9 @@ p {
 }
 
 .nav_link_right:hover {
-    background-color:  #01996D;
+    background-color: #01996D;
     color: #fff;
-    box-shadow: 0 4px 12px  #01996D;
+    box-shadow: 0 4px 12px #01996D;
     border-radius: 4px;
 }
 
@@ -160,8 +160,48 @@ p {
     outline: none;
 }
 
-.main_btn:hover{
+.main_btn:hover {
     background: linear-gradient(135deg, #01996D, #56b197);
     box-shadow: 0 6px 20px #01996D;
     transform: scale(1.05);
+}
+
+
+/*SECTION_QISMI*/
+
+.how-it-works {
+    margin-top: 100px;
+}
+
+
+.how_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_left{
+margin-right: 120px;
+}
+
+.section-label {
+    font-size: 14px;
+    color: #333;
+}
+
+
+/* H2 katta sarlavha */
+.section-title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #16876d;
+}
+
+/* Tavsif matni */
+.section-description {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    max-width: 500px;
 }
