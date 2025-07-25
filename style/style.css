@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -18,6 +20,10 @@
 
 
 a {
+    font-family: Lato;
+}
+
+p {
     font-family: Lato;
 }
 
@@ -96,4 +102,36 @@ a {
     color: #fff;
     box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
     border-radius: 4px;
+}
+
+
+/* MAIN_QISMI */
+
+.main {
+    margin-top: 20px;
+    background-image: url('../img/Menu.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.main_box {
+    padding-top: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-right: 700px;
+
+}
+
+.main_title {
+    font-family: Noto+Sans+Georgian;
+    font-size: 60px;
+    color: #01996D;
+}
+
+.main_text {
+    font-size: 20px;
+    color: #484848;
 }
