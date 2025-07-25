@@ -83,6 +83,8 @@ p {
 
 
 /* NAV_LINK_RIGHT */
+
+
 .nav_links_right {
     display: flex;
     gap: 10px;
@@ -121,8 +123,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding-right: 700px;
-
+padding-right: 700px;
 }
 
 .main_title {
@@ -134,4 +135,17 @@ p {
 .main_text {
     font-size: 20px;
     color: #484848;
+    line-height: 157%;
+}
+
+/* MAIN_BTN */
+
+.main_btn {
+    background-color: #01996D;
+
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 20px 50px;
+margin-right: 50px;
 }
