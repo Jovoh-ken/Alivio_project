@@ -15,27 +15,85 @@
     padding: 0 15px;
 }
 
+
+
+a {
+    font-family: Lato;
+}
+
 /* HEADER_QISMI */
 
 .navbar {
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 
 .nav_links {
     display: flex;
     justify-content: space-between;
-    gap: 70px;
-    padding-left: 170px;
+    gap: 50px;
+    padding-left: 150px;
     list-style: none;
 }
 
+/* NAV_LINK_LEFT */
 
+
+.nav_link_left {
+
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    padding: 8px 4px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+/*YAQINLASHUV EFFEKTI */
+
+.nav_link_left:hover {
+    transform: scale(1.05);
+    color: #28a745;
+}
+
+/* CHIZIQ ANIMATSIYASI*/
+
+.nav_link_left::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #28a745;
+    transition: width 0.3s ease;
+}
+
+.nav_link_left:hover::after {
+    width: 100%;
+}
+
+
+/* NAV_LINK_RIGHT */
 .nav_links_right {
     display: flex;
-    gap: 35px;
+    gap: 10px;
     list-style: none;
-    padding-left: 200px;
+    padding-left: 247px;
+}
+
+.nav_link_right {
+    color: #000;
+    padding: 13px;
+    transition: all 0.3s ease;
+
+}
+
+.nav_link_right:hover {
+    background-color: #28a745;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
+    border-radius: 4px;
 }
