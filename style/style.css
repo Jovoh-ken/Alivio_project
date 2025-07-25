@@ -1,12 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
-.container{
+.container {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+/* HEADER_QISMI */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.nav_links {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    padding-left: 170px;
+    list-style: none;
+}
+
+
+.nav_links_right {
+    display: flex;
+    gap: 35px;
+    list-style: none;
 }
