@@ -306,53 +306,62 @@ p {
 
 /* VIDEO_MAIN_QISMI */
 
-
-
 .video_main {
     margin-top: 100px;
+    padding: 60px 0;
     background-color: #245852;
-    height: 500px;
-    display: flex;
-    align-items: center;
+    /* fon rangi ixtiyoriy */
 }
-
-
-
 
 .video_box {
     display: flex;
-    gap: 31px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    /* kichik ekranda ustma-ust */
 }
 
 .box_left {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+    flex: 1;
+    min-width: 280px;
 }
 
 .title_video {
     font-family: Georgia;
-    font-size: 55px;
-    line-height: 130%;
+    font-size: 30px;
+    line-height: 150%;
     color: #FFFFFF;
+    margin-bottom: 10px;
 }
 
 .text_video {
     font-family: Lato;
-    font-size: 20px;
-    line-height: 157%;
+    line-height: 150%;
+    font-size: 4x;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 
+.box_right {
+    flex: 1;
+    max-width: 600px;
+    min-width: 280px;
+}
+
+.custom_video {
+    width: 100%;
+    height: auto;
+    border-radius: 16px
+}
 
 .btn_video {
     font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
     padding: 10px 20px;
-    margin-right: 450px;
+    margin-right: 100px;
     border-radius: 4px;
-
     border: none;
     background: linear-gradient(135deg, #60d6b4, #01996D);
     cursor: pointer;
@@ -360,8 +369,69 @@ p {
     box-shadow: 0 4px 15px #29ab86;
     outline: none;
 }
+
 .btn_video:hover {
     background: linear-gradient(135deg, #01996D, #56b197);
     box-shadow: 0 6px 20px #01996D;
     transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* VIDE_PLAY_QISMI */
+
+
+
+
+
+.video_wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.custom_video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.play_btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play_btn img {
+  width: 100%;
+  height: auto;
 }
