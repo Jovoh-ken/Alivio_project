@@ -217,3 +217,49 @@ p {
     line-height: 1.6;
     max-width: 500px;
 }
+
+
+
+
+
+
+
+.cards_box {
+    display: flex;
+    margin-top: 100px;
+    gap: 90px;
+}
+
+
+
+.cards_1 {
+    width: 300px;
+    height: 600px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+}
+
+.cards_box .cards_1:nth-child(2) {
+    margin-top: 100px;
+}
+
+.cards_box .cards_1:nth-child(3) {
+    margin-top: 55px;
+}
+
+
+.title_head {
+    font-family: Georgia;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+}
+
+
+.text_head {
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+}
