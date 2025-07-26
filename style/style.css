@@ -29,6 +29,18 @@ p {
 
 /* HEADER_QISMI */
 
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    /* fon rangini o'rnating, shaffof bo'lmasligi uchun */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* pastga soyacha */
+}
+
 .navbar {
     display: flex;
     align-items: center;
