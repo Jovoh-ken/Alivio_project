@@ -295,9 +295,9 @@ p {
     height: 400px;
     opacity: 1;
     border-radius: 12px;
-    transition: transform 0.5s ease;
+    transition: transform 0.3s ease;
 }
 
 .card_img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
